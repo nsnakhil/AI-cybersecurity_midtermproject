@@ -1,7 +1,8 @@
 # Cloud-based PE Malware Detection API 
 ### The purpose of this term project is to demonstrate your practical skills in implementing and deploying machine learning models for malware classification. The technical implementation of this project is comprised of three main tasks that need to be completed sequentially:
 
-Task 1 - Training: In this task, you will be creating and training a deep neural network based on the
+### Task 1 
+Training: In this task, you will be creating and training a deep neural network based on the
 MalConv architecture to classify PE files as malware or benign. As for the dataset, you will be using the
 EMBER-2017 v2 ( https://github.com/endgameinc/ember ). Besides the references provided in this
 repository, the following two talks at BSides San Francisco 2018 and the CAMLIS 2019 conferences
@@ -34,7 +35,8 @@ o Amazon AWS Sagemaker
 method) that takes a PE file as its argument, runs it through the trained model, and returns the
 output (i.e., Malware or Benign).
 
-Task 2 - Deploy your model on the cloud: In this task, you will be using Amazon Sagemaker to
+### Task 2
+Deploy your model on the cloud: In this task, you will be using Amazon Sagemaker to
 deploy your model on the cloud, and create an endpoint (~ API) so that other applications can make use
 of the model. While this might sound very complicated, you will find that it is actually quite simple to
 deploy models using Sagemaker. To learn about the procedure, you can follow this tutorial:
@@ -42,7 +44,8 @@ deploy models using Sagemaker. To learn about the procedure, you can follow this
  Jupyter Notebook:
 https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_13_02_cloud.ipynb
 
-Task 3 – Create a client: This task is quite simple as well: create a Python code that loads a PE file,
+### Task 3
+Create a client: This task is quite simple as well: create a Python code that loads a PE file,
 converts it into a feature vector that is compatible with your MalConv/EMBER model, runs the vector on
 the cloud API, and then prints the results (i.e., Malware or Benign – or probabilities of each). You can
 find a sample implementation here: https://github.com/endgameinc/ember/tree/master/malconv
