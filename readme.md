@@ -1,6 +1,5 @@
-The purpose of this term project is to demonstrate your practical skills in implementing and deploying
-machine learning models for malware classification. The technical implementation of this project is
-comprised of three main tasks that need to be completed sequentially:
+# Cloud-based PE Malware Detection API 
+### The purpose of this term project is to demonstrate your practical skills in implementing and deploying machine learning models for malware classification. The technical implementation of this project is comprised of three main tasks that need to be completed sequentially:
 
 Task 1 - Training: In this task, you will be creating and training a deep neural network based on the
 MalConv architecture to classify PE files as malware or benign. As for the dataset, you will be using the
@@ -41,8 +40,7 @@ of the model. While this might sound very complicated, you will find that it is 
 deploy models using Sagemaker. To learn about the procedure, you can follow this tutorial:
  Video: https://youtu.be/8ygCyvRZ074
  Jupyter Notebook:
-https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_13_02_clo
-ud.ipynb
+https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_13_02_cloud.ipynb
 
 Task 3 – Create a client: This task is quite simple as well: create a Python code that loads a PE file,
 converts it into a feature vector that is compatible with your MalConv/EMBER model, runs the vector on
